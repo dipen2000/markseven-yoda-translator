@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
+:root{
+    --yoda-color : #4a775b;
+    --space-blue : #003b59;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin : 0;
+    padding : 0;
+    
+    
+}
+.header{
+    display : flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content : center;
+    /* border: 3px solid red; */
+    background-color : var(--yoda-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.heading{
+    margin : 1rem 0;
+    letter-spacing : 5px;
+    font-family: 'Bungee Shade', cursive;
+    color : white;
+}
+
+.yoda-gif{
+    display: block;
+    /* border: 3px solid red; */
+    height : 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content : center;
+    margin : 2rem auto;
+    
+}
+
+.gif-itself{
+    border-radius: 15px;
+}
+
+
+.container{
+    border: 3px solid var(--space-blue);
+    max-width: 1000px;
+    width : 80%;
+    margin : 2rem auto 2rem auto;
+    border-radius: 15px;
+    background-image: url("./images/hyperspace-img.jpg");
+    background-size: 100%;
+}
+
+.txtInput{
+    display: block;
+    /* max-width : 800px; */
+    width : 60%; 
+    margin : 3rem auto 2rem auto;
+    height : 20vh;
+    padding : 1rem;
+    font-size : 1.1rem;
+    resize : none;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.btn{
+    padding: 1rem;
+    font-family: 'Faustina', serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background-color: var(--yoda-color);
+    display : block;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid var(--space-blue);
+    color : white;
+}
+
+.btn:hover{
+    background-color : var(--space-blue);
+    cursor : pointer;
+}
+
+.out-section{
+    /* border: 3px solid red; */
+    display : block;
+    font-size : 1.1rem;
+    font-family: 'Faustina', serif;
+    margin : 2rem auto 2rem auto;
+    height : 20vh;
+    width : 60%; 
+    border-radius: 15px;
+    background-color: white;
+    /* border: 3px solid black; */
+    padding : 1rem;
+    opacity: 0.9;
+}
+
+.footer{
+    display : flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content : center;
+    /* border: 3px solid red; */
+    background-color : var(--yoda-color);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;   
+    position : absolute;
+    width : 100%;
+    padding : 0.5rem;
+    
+}
+ 
+.footer .desc{
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Faustina', serif;
+}
